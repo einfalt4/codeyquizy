@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+              <div id="timer">Time</div>
+    </header>
+<!-- title -->
+    <h1 id="title">Code Quiz Challenge!</h1>
+
+    <p id="directions">
+        Try to answer the following code-related questions within the time limit.<br><br>
+        Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+    </p>
+<!-- questions and answers -->
+    <div class="center"><button id="start">Start Quiz</button></div>
+    <h2 id="question"></h2>
+    <h3 id="answers">
+        <ul>
+            <li class="questions-li"><button id="q-answer-one" value="0" type="button" class="answerbutton">1</button></li>
+            <li class="questions-li"><button id="q-answer-two" value="1" type="button" class="answerbutton">2</button></li>
+            <li class="questions-li"><button id="q-answer-three" value="2" type="button" class="answerbutton">3</button></li>
+            <li class="questions-li"><button id="q-answer-four" value="3" type="button" class="answerbutton">4</button></li>
+        </ul>
+
+        <div id="right-wrong" class="font-weight-bold font-italic">
+          <hr>
+        </div>
+    </h3>
+    <!-- initial score page -->
+    <section id="high-score-page">
+        <div class="submit">
+          <p>Your Final Score: <span id="score"></span></p>
+          <h2>Enter Your Name!</h2>
+          <form method="POST">
+            <div class="input-group">
+              <label for="name"></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name Here" id="initials"
+              />
+              <hr>
+            </div>
+            <div id="msg"></div>
+            <button id="submit-score">Submit High Score</button>
+          </form>
+        </section>
+<!-- scores list -->
+     <section id="scoringEnd">
+          <div class="prev-high-score">
+          <h2>Current High Score</h2>
+          <li><strong></strong> <ol class="scorelist"></ol></li>
+          <button id="goBack" class="go-back-btn btn-style-main">Go Back</button>
+          <button id="clearScores" class="clear-scores-btn btn-style-main">Clear All Scores</button>
+        </div>
+    </div>
+  </section>
+    <script src="assets/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    display: center;
+    color:rgb(0, 0, 0);
+}
+
+body {
+    background-image: url(./woodback.jpg);
+    color:black;
+}
+
+header {
+    display: inline;
+}
+
+#timer {
+    float: right;
+    font-weight: bolder;
+    background: linear-gradient(135deg, rgba(255, 255.255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255.255, 0.18);
+    border-radius: 32px;
+}
+
+#highscore {
+    font-weight: bolder;
+    float: left;
+}
+
+h2 {
+    background: linear-gradient(135deg, rgba(255, 255.255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255.255, 0.18);
+    border-radius: 32px;
+
+}
+
+h1 {
+    padding-top: 25px;
+    background: linear-gradient(135deg, rgba(255, 255.255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255.255, 0.18);
+    border-radius: 32px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-weight: bolder;
+    font-size: large;
+    background: linear-gradient(135deg, rgba(255, 255.255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255.255, 0.18);
+    border-radius: 32px;
+}
+
+
+
+button {
+    background-color: rgb(183, 49, 41);
+    color: rgb(0, 0, 0);
+}
